@@ -4,69 +4,75 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Heavenly Hands Handyman Services | Batesville, AR</title>
-  <meta name="description" content="Heavenly Hands Handyman Services offers dependable handyman repairs, painting, landscaping, power washing, decking, fencing, junk removal, and more in Batesville, Arkansas." />
+  <meta name="description" content="Heavenly Hands Handyman Services provides reliable repairs, improvements, outdoor projects, and free estimates in Batesville, Arkansas." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <nav class="nav container">
+    <div class="container nav">
       <a class="brand" href="#top" aria-label="Heavenly Hands home">
         <img src="assets/logo.jpeg" alt="Heavenly Hands Handyman Services logo" />
         <span>Heavenly Hands</span>
       </a>
-      <div class="nav-links">
+
+      <nav class="nav-links" aria-label="Main navigation">
         <a href="#services">Services</a>
         <a href="#about">About</a>
         <a href="#estimate">Free Estimate</a>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
 
   <main id="top">
     <section class="hero container">
-      <div class="hero-copy">
+      <div class="hero-content">
         <p class="eyebrow">Batesville, Arkansas • General Handyman Services</p>
         <h1>Reliable repairs, clean work, and a helping hand around your property.</h1>
         <p class="lead">Heavenly Hands Handyman Services helps homeowners and businesses with repairs, improvements, prep work, and outdoor projects done with care.</p>
+
         <div class="hero-actions">
-          <a class="btn primary mobile-only" href="sms:+18708059090?&body=Hi%20Oscar%2C%20I%27d%20like%20to%20book%20a%20free%20estimate%20for%20handyman%20services.">Text for a Free Estimate</a>
-          <a class="btn primary desktop-only" href="mailto:myjubilee25@gmail.com?subject=Free%20Estimate%20Request%20-%20Heavenly%20Hands&body=Hi%20Oscar%2C%0A%0AI%27d%20like%20to%20book%20a%20free%20estimate.%0A%0AName%3A%0APhone%3A%0AProject%20Address%3A%0AWhat%20do%20you%20need%20help%20with%3F%0A%0AThank%20you!">Email for a Free Estimate</a>
+          <a class="btn primary mobile-only" href="sms:+18708059090">Text for a Free Estimate</a>
+          <a class="btn primary desktop-only" href="mailto:myjubilee25@gmail.com?subject=Free%20Estimate%20Request%20-%20Heavenly%20Hands&body=Hi%20Oscar%2C%0A%0AI%20would%20like%20a%20free%20estimate.%20Here%20is%20what%20I%20need%20help%20with%3A%0A%0AName%3A%0AAddress%3A%0AProject%20details%3A%0A%0AThank%20you!">Email for a Free Estimate</a>
           <a class="btn secondary" href="tel:+18708059090">Call (870) 805-9090</a>
         </div>
       </div>
-      <div class="hero-card" aria-label="Company logo and contact card">
+
+      <aside class="hero-card" aria-label="Contact Oscar">
         <img src="assets/logo.jpeg" alt="Heavenly Hands Handyman Services logo" />
-        <div class="contact-line">Call Oscar</div>
+        <p class="contact-line">Call Oscar</p>
         <a href="tel:+18708059090">(870) 805-9090</a>
         <a href="mailto:myjubilee25@gmail.com">myjubilee25@gmail.com</a>
-      </div>
+      </aside>
     </section>
 
-    <section id="services" class="section container">
+    <section class="section container" id="services">
       <div class="section-heading">
-        <p class="eyebrow">What we do</p>
-        <h2>Handyman help for the jobs you need handled.</h2>
+        <div>
+          <p class="eyebrow">What we do</p>
+          <h2>Handyman help for the jobs you need handled.</h2>
+        </div>
       </div>
+
       <div class="service-grid">
         <div>Small plumbing repairs</div>
         <div>Light fixture installs</div>
-        <div>Yard mowing & landscaping</div>
+        <div>Yard mowing &amp; landscaping</div>
         <div>Roofing repairs</div>
         <div>Gutter cleaning</div>
-        <div>Siding & structural repairs</div>
-        <div>Interior & exterior painting</div>
+        <div>Siding &amp; structural repairs</div>
+        <div>Interior &amp; exterior painting</div>
         <div>Flooring repairs</div>
         <div>Power washing</div>
         <div>Junk removal</div>
-        <div>Window & door repairs/replacements</div>
-        <div>Fencing & decking repairs/construction</div>
+        <div>Window &amp; door repairs/replacements</div>
+        <div>Fencing &amp; decking repairs/construction</div>
       </div>
     </section>
 
-    <section id="about" class="split container">
+    <section class="container split" id="about">
       <div>
         <p class="eyebrow">Local and practical</p>
         <h2>From quick fixes to bigger projects.</h2>
@@ -74,14 +80,27 @@
       <p>Whether you need a repair, a cleanup, prep work before painting or staining, or help improving a deck, fence, yard, or room, Heavenly Hands gives you a straightforward way to get the project looked at and estimated.</p>
     </section>
 
-    <section id="estimate" class="estimate container">
-      <div class="estimate-box">
+    <section class="container partner" aria-label="White River Cleaning partner recommendation">
+      <div class="partner-box">
+        <div>
+          <p class="eyebrow">Need house cleaning too?</p>
+          <h2>We also recommend White River Cleaning.</h2>
+          <p>Heavenly Hands Handyman Service is proud to partner with White River Cleaning for residential cleaning services.</p>
+          <p>If your home needs routine cleaning, deep cleaning, or move-in/move-out cleaning, visit WhiteRiverCleaning.online.</p>
+        </div>
+        <a class="btn secondary partner-btn" href="https://whiterivercleaning.online" target="_blank" rel="noopener noreferrer">Visit White River Cleaning</a>
+      </div>
+    </section>
+
+    <section class="estimate" id="estimate">
+      <div class="container estimate-box">
         <p class="eyebrow">Book your free estimate</p>
         <h2>Tell Oscar what you need done.</h2>
         <p>Send a quick message with your name, address, and a short description of the project. Pictures are helpful too.</p>
+
         <div class="estimate-actions">
-          <a class="btn primary mobile-only" href="sms:+18708059090?&body=Hi%20Oscar%2C%20I%27d%20like%20to%20book%20a%20free%20estimate.%0A%0AName%3A%0AProject%20Address%3A%0AProject%20Details%3A">Message Oscar</a>
-          <a class="btn primary desktop-only" href="mailto:myjubilee25@gmail.com?subject=Free%20Estimate%20Request%20-%20Heavenly%20Hands&body=Hi%20Oscar%2C%0A%0AI%27d%20like%20to%20book%20a%20free%20estimate.%0A%0AName%3A%0APhone%3A%0AProject%20Address%3A%0AProject%20Details%3A%0A%0AThank%20you!">Email Oscar</a>
+          <a class="btn primary mobile-only" href="sms:+18708059090">Message Oscar</a>
+          <a class="btn primary desktop-only" href="mailto:myjubilee25@gmail.com?subject=Free%20Estimate%20Request%20-%20Heavenly%20Hands&body=Hi%20Oscar%2C%0A%0AI%20would%20like%20a%20free%20estimate.%20Here%20is%20what%20I%20need%20help%20with%3A%0A%0AName%3A%0AAddress%3A%0AProject%20details%3A%0A%0AThank%20you!">Email Oscar</a>
           <a class="btn secondary" href="tel:+18708059090">Call Now</a>
         </div>
       </div>
